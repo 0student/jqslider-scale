@@ -1,5 +1,6 @@
 /**
  * jqslider-scale
+ * @licence MIT
  * @author mikhail krughkov
  * @lastmodified 20150522
  */
