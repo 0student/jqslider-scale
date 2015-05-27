@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+    <script src="jqslider-scale.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="jqslider-scale.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Verdana, Arial, Helvetica, sans-serif; font-size: 14px; text-align: center;
+        }
+        #slider {
+            display:inline-block; width: 50em;
+        }
+        .label {
+            color: green;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            var sl = $('#slider').slider({
+                min: 0, max: 1000, step: 50
+            });
+            
+            sl.slider('scale', {
+                min: 200, max: 800, step: 150,
+                formatLabel: function(value) {
+                    return '<span class="label">' + value + '</span>'
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div id="slider"></div>
+</body>
+</html>
+
+
