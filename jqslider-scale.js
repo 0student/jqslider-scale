@@ -77,3 +77,4 @@ $.extend(true, $.ui.slider.prototype, {
 
 });
 })(jQuery);
+
