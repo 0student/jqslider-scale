@@ -1,0 +1,20 @@
+/**
+ * jqslider-scale
+ * @author mikhail
+ * @lastmodified 20150522
+ */
+.ui-slider-scale {
+    height: 4em; margin-top: 0.6em;
+    /*position: relative required to act as a container for children with position:absolute*/
+    position: relative;
+}
+.ui-slider-scale .bar {
+    /*position: absolute required to specify left relative to our parent; note margin-left specifies relative to previous child*/
+    position: absolute;
+}
+.ui-slider-scale .bar-icon {
+
+}
+.ui-slider-scale .bar-label {
+    width: 8em; margin-left: -50%; text-align: center;
+}
