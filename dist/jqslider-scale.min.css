@@ -1,0 +1,7 @@
+/**
+ * jqslider-scale
+ * @licence MIT
+ * @author mikhail
+ * @lastmodified 20150522
+ */
+.ui-slider-scale{height:4em;margin-top:.6em;position:relative}.ui-slider-scale .bar{position:absolute}.ui-slider-scale .bar-label{width:8em;margin-left:-50%;text-align:center}
