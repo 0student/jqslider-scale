@@ -2,7 +2,7 @@
 Simplified, performant. Accepts options (min, max, step) which decouples it from jqueryui slider options.
 
 ###Preview
-![Preview](https://cloud.githubusercontent.com/assets/9401532/7848888/b0bbdf44-0484-11e5-94e9-f431f5fbcc02.png)
+![Preview](https://cloud.githubusercontent.com/assets/9401532/7849008/cef186f2-0485-11e5-8167-eda19ec9a8a3.png)
 
 ###Usage
 ```html
